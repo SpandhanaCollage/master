@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#suggetions-box {
+    max-width: 800px;
+    margin: 10px auto;
+    height: 40px;
+}
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+div.box {
+    padding: 30px;
+    border: 2px solid #f1f1f1;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+p {
+    line-height: 1.6;
+}

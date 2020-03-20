@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/sign-up-page.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form-container">
+        <div id="form-img-box">
+            <img src="../images/interface/welcome.png" alt="welcome banner">
+        </div>
+        <div id="form-box">
+            <h1>Create an Accout Here</h1>
+            <form action="#" id="form">
+                <input type="text" id="name" placeholder="Enter your Name">
+                <input type="email" id="email" placeholder="Enter your Email">
+                <input type="password" id="set-password" placeholder="Set Password">
+                <input type="password" id="confirm-password" placeholder="Confirm Password">
+                <input type="submit" value="create Account">
+            </form>
+        </div>
+    </div>
+
+    <!--FIREBASE CODE START-->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+    <script src="../scripts/firebase.js"></script>
+    <!--FIREBASE CODE END-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../scripts/signup.js"></script>
+</body>
+</html>

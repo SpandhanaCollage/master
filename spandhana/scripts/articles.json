@@ -1,0 +1,58 @@
+{
+    "articles": [
+        {
+            "title": "10 Quick Tips for Successful Exam Preparation",
+            "image": "images/banners/exam-preparation.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/tips-for-exam-preparation.html"
+        },
+        {
+            "title": "Tips for balancing College Studies and Part - Time Job",
+            "image": "images/banners/job-an-studies.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/collage-studies-and-part-time-job.html"
+        },
+        {
+            "title": "Self Defense For Girls: Everything You Need to Know",
+            "image": "images/banners/self-defense.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/self-defense-for-girls.html"
+        },
+        {
+            "title": "Choosing the Right Study Materials",
+            "image": "images/banners/choosing-a-meterial.png",
+            "alt": "study meterial",
+            "page": "articles/post/choosing-right-study-meterials.html"
+        },
+        {
+            "title": "Suicide and Depression Awareness for Students",
+            "image": "images/banners/getout-from-depresion.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/depretion-awarness-for-students.html"
+        },
+        {
+            "title": "How to Face an Interview for Freshers",
+            "image": "images/banners/facing-interview.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/how-to-face-interview-for-freshers.html"
+        },
+        {
+            "title": "Study Apps for College Students",
+            "image": "images/banners/apps-for-students.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/study-apps-for-collage-students.html"
+        },
+        {
+            "title": "money saving: how to apply ts bus pass online",
+            "image": "images/banners/how-to-bus-pass-online.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/how-to-apply-ts-buss-pass-online.html"
+        },
+        {
+            "title": "How to Break a Bad Habit and Replace It With a Good One",
+            "image": "images/banners/overcome-bad-habits.png",
+            "alt": "degree boy as a part time jober",
+            "page": "articles/post/break-bad-habits.html"
+        }
+    ]
+}

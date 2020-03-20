@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="wrapper wrap">
+            <div id="logo-container">
+                <img src="images/interface/icon-62627.png" alt="logo">
+                <div id="logo-txt">SpandhanaCollage.com</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#scroll-blog" class="nav-link">Blog</a></li>
+                    <li><a href="#login-section" class="nav-link" id="login-btn">Login</a></li>
+                    <li><a href="#" id="logout-btn" class="nav-link">Logout</a></li>
+                    <li><a href="#aboutus-box" class="nav-link" id="contact-btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--SLIDER-->
+
+    <section id="banner">
+        <div class="wrapper">
+            <div class="slider">
+                <div class="slide-view">
+                    <div class="slide-group">
+                        <div class="slide slide-1">
+                            <img src="images/interface/staff.jpeg" alt="staff">
+                        </div>
+                        <div class="slide slide-2">
+                            <img src="images/interface/bonalu.jpg" alt="bonalu">
+                        </div>
+                        <div class="slide slide-3">
+                            <img src="images/interface/teachers.jpg" alt="teachers">
+                        </div>
+
+                        <div class="slide slide-4">
+                            <img src="images/interface/students.jpg" alt="pic 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="welcome-banner">
+        <div id="title">Welcome to Spandhana Collages's<br /> Digital Library</div>
+        <div class="material-icons" id="icon">library_books</div>
+    </div>
+
+    <!--LOGIN FORM-->
+
+    <section id="login-section">
+        <div class="login-header wrapper">
+            <div>
+                <img src="images/interface/undraw_reading_0re1.svg" alt="reading girl">
+            </div>
+            <div id="login-container">
+                <div id='wish'></div>
+                <div class="form form-wish">Login Below!</div>
+                <form action="#" id="login-form" class="form">
+                    <input type="email" id="login-email" placeholder="Enter your Email">
+                    <input type="password" id="login-password" placeholder="Password">
+                    <input type="submit" value="Login" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--ARTICLES SECTION-->
+
+    <section class="articles" id="scroll-blog">
+        <h1>Resent Posts</h1>
+        <p id="user-email"></p>
+        <div class="lock-articles">
+            <!--<article>
+                <img src="images/banners/Untitled design.png" alt="article-banner">
+                <div class="article-content">
+                    <h2>how to manage studies and parttime job</h2>
+                    <a href="#" class="read-btn">
+                        <i class="material-icons">arrow_right_alt</i>Read 
+                    </a>
+                </div>
+            </article>-->
+        </div>
+        <div class="unlock-articles"></div>
+    </section>
+    
+    <button id="articles-btn">View All Aricles</button>
+
+    <!--NOTIFICATION-->
+
+    <section id="notifications">
+       <div class="wrapper">
+           <h3>Notice Board</h3>
+           <table>
+               <tr>
+                    <th id="th1">Date</th><th>vacation</th>
+               </tr>
+                <tr>
+                    <td>13-03-2020</td><td>collage fest</td>
+                </tr>
+                <tr>
+                    <td colspan="2">NOTICE: please were a tardition dress on fest day</td>
+                </tr>
+           </table>
+       </div>  
+    </section>
+
+    <div class="suggetion-box">
+        <a href="admins/suggetions-box.html">Suggetions and Complaints<i class="material-icons">mode_comment</i></a>
+        <a href="#" class="gallery">Collage Gallery <i class="material-icons">insert_photo</i></a>
+    </div>
+
+    <div id="chairman-sir">
+        <h3>About Chairman Sir</h3>
+        <img src="images/interface/IMG_0431.JPG" alt="chairman sir pic">
+        <a href="#">Dr.b.balakrishna,Ph.D</a>
+    </div>
+    
+    <!--CORCES BLOCK-->
+
+    <section id="courses">
+        <div class="wrapper courses-container">
+            <img src="images/interface/accomplishment-ceremony-education-graduation-267885.jpg" alt="degree students">
+            <div id="groups">
+                <h3>Courses we offer</h3>
+                <ul>
+                    <li>B.Com Regular</li>
+                    <li>B.Com Computer Applications</li>
+                    <li>MPCs</li>
+                    <li>NZC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--GOOGLE MAP-->
+    <section id="collage-location">
+        <div class="wrapper map-wrapper">
+            <h3>Spandhana Collage Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d566.7044892099424!2d78.56994143440994!3d17.338290126680207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1fe38cb5db7%3A0x6b544134d04f8cfa!2sSpandana%20Degree%20College!5e0!3m2!1sen!2sin!4v1583568104829!5m2!1sen!2sin" id="map"></iframe>
+        </div>
+    </section>
+    <!--MAIL CONTACT-->
+    <section id="mail-box">
+        <div class="wrapper">
+            <h3>Contact us Just Send a Mail</h3>
+            <p>We are Providing Best Friendly Support to Our Students. We Have a Labs for Our Students. We Allways try to Reaching our students to higher positions to Lead Better Future.</p>
+            <a href="mailto:mani333@gmail.com" id="mail-link">Send Mail Now</a>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="wrapper footer-info-box">
+            <div id="aboutus-box">
+                <h4>ABOUT Us</h4> <br/><br/>
+                <p>Spandhana Collage Starts On 2012 Aug, We Have a Good Staff</p>
+                <div id="social-media">
+                    <a href="#"><img src="images/interface/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="images/interface/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="images/interface/whatsapp.png" alt="whatsapp"></a>
+                    <a href="#"><img src="images/interface/gmail-icon.png" alt="gmail"></a>
+                </div>
+            </div>
+            <div id="contact-box">
+                <h4>Contact Us</h4> <br/><br/>
+                <p><i class="material-icons">mail</i>&nbsp;&nbsp;spandhanacollage@gmail.com</p>
+                <p><i class="material-icons">phone</i>&nbsp;&nbsp;95056 29940</p>
+                <p><i class="material-icons">location_on</i>&nbsp;&nbsp;Telangana, HyderaBad, Panama 501505</p>
+            </div>
+        </div>
+        <div id="admin-link"><a href="admins/admins.html">Admins</a></div>
+    </footer>
+
+    <!--FIREBASE CODE START-->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+    <script src="scripts/firebase.js"></script>
+    <!--FIREBASE CODE END-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/home.js"></script>
+</body>
+</html>

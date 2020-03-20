@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/suggetion-box.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="suggetions-box">
+        <h1>Suggetions Box <i class="material-icons" id="letter">markunread</i></h1>
+        <p>By Using this Suggetion Box You can make suggetions and complaints</p>
+        <form action="#" id="suggetion-form">
+            <input type="text" id="name" placeholder="Enter your Name (optional)">
+            <p>If you dont want to tell your name leave the above field as empty</p>
+            <textarea id="suggetion-box" cols="30" rows="10" placeholder="Suggetion or Complaint Text..."></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+<script src="../scripts/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../scripts/suggetions.js"></script>
+</body>
+</html>
